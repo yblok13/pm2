@@ -1,98 +1,38 @@
 {
-  "name": "pm2",
+  "name": "@yblok13/pm2",
   "preferGlobal": true,
   "version": "4.5.4",
   "engines": {
     "node": ">=8.10.0"
   },
   "directories": {
-    "bin": "./bin",
-    "lib": "./lib",
-    "example": "./examples"
+    "example": "examples",
+    "lib": "lib",
+    "test": "test"
   },
-  "author": {
-    "name": "Strzelewicz Alexandre",
-    "email": "alexandre@pm2.io",
-    "url": "https://pm2.io"
-  },
+  "author": "Strzelewicz Alexandre <alexandre@pm2.io> (https://pm2.io)",
   "maintainers": [
-    {
-      "name": "Alexandre Strzelewicz",
-      "email": "alexandre@pm2.io"
-    },
-    {
-      "name": "Antoine Bluchet",
-      "email": "antoine@pm2.io"
-    }
+    "Alexandre Strzelewicz <alexandre@pm2.io>",
+    "Antoine Bluchet <antoine@pm2.io>"
   ],
   "contributors": [
-    {
-      "name": "Alex Kocharin",
-      "email": "alex@kocharin.ru"
-    },
-    {
-      "name": "Antoine Bluchet",
-      "email": "soyuka@gmail.com"
-    },
-    {
-      "name": "Subhash Burramsetty"
-    },
-    {
-      "name": "Valentin Marchaud",
-      "email": "thisismac47@gmail.com"
-    },
-    {
-      "name": "Valentin Touffet",
-      "email": "contact@eywek.fr"
-    },
-    {
-      "name": "Florian Hermouet-Joscht",
-      "email": "florian@keymetrics.io"
-    },
-    {
-      "name": "Vincent Vallet",
-      "email": "wallet77@gmail.com"
-    },
-    {
-      "name": "Joni Shkurti",
-      "email": "jonishkurti90@gmail.com"
-    },
-    {
-      "name": "Jun Tjatse",
-      "email": "thisnamemeansnothing@gmail.com"
-    },
-    {
-      "name": "Xu Jingxin",
-      "email": "sailxjx@gmail.com"
-    },
-    {
-      "name": "Ben Postlethwaite",
-      "email": "post.ben.here@gmail.com"
-    },
-    {
-      "name": "Devo.ps",
-      "email": "contact@devo.ps"
-    },
-    {
-      "name": "Bret Copeland",
-      "email": "bret@atlantisflight.org"
-    },
-    {
-      "name": "John Hurliman",
-      "email": "jhurliman@jhurliman.org"
-    },
-    {
-      "name": "TruongSinh Tran-Nguyen",
-      "email": "i@truongsinh.pro"
-    },
-    {
-      "name": "Michael Hueuberger",
-      "email": "michael.heuberger@binarykitchen.com"
-    },
-    {
-      "name": "Chris Wiggins",
-      "email": "chris@chriswiggins.co.nz"
-    }
+    "Alex Kocharin <alex@kocharin.ru>",
+    "Antoine Bluchet <soyuka@gmail.com>",
+    "Subhash Burramsetty",
+    "Valentin Marchaud <thisismac47@gmail.com>",
+    "Valentin Touffet <contact@eywek.fr>",
+    "Florian Hermouet-Joscht <florian@keymetrics.io>",
+    "Vincent Vallet <wallet77@gmail.com>",
+    "Joni Shkurti <jonishkurti90@gmail.com>",
+    "Jun Tjatse <thisnamemeansnothing@gmail.com>",
+    "Xu Jingxin <sailxjx@gmail.com>",
+    "Ben Postlethwaite <post.ben.here@gmail.com>",
+    "Devo.ps <contact@devo.ps>",
+    "Bret Copeland <bret@atlantisflight.org>",
+    "John Hurliman <jhurliman@jhurliman.org>",
+    "TruongSinh Tran-Nguyen <i@truongsinh.pro>",
+    "Michael Hueuberger <michael.heuberger@binarykitchen.com>",
+    "Chris Wiggins <chris@chriswiggins.co.nz>"
   ],
   "homepage": "http://pm2.keymetrics.io/",
   "description": "Production process manager for Node.JS applications with a built-in load balancer.",
@@ -194,6 +134,7 @@
     "semver": "^7.2",
     "source-map-support": "0.5.19",
     "sprintf-js": "1.1.2",
+    "systeminformation": "^4.32",
     "vizion": "2.2.1",
     "yamljs": "0.3.0"
   },
